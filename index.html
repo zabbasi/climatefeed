@@ -1,0 +1,62 @@
+
+ <html 	633928>
+    <head>
+    <link rel="stylesheet" href="res/mainstyle.css">
+    <script>
+    function show(shown) {
+      var array = ["about","externalresources","people"];
+      var arrayLength = array.length;
+      document.getElementById(shown).style.display='block';
+      for (var i = 0; i < arrayLength; i++) {
+	if(array[i]!=shown){
+          document.getElementById(array[i]).style.display='none';
+	}
+      }
+      return false;
+    }
+    </script>
+    </head>
+    <body>
+    <div class="headertitle">
+	
+  	<p  style="font-size:19px; font-family:sans-serif; font-weight: lighter line-height:0.2; text-align:center"><span style="font-size:19px"><span style="letter-spacing:0.4em"> ~ be mindful about climate change ~</p><br>
+
+	<p style="font-size:19px; font-family:sans-serif; font-weight: lighter line-height:0.2; text-align:center"><span style="font-size:19px"><span style="letter-spacing:0.4em">~ make a difference by little steps  ~</p>
+        <h1 > Climate Change Newsletter </h1>
+    </div><br>
+    <div class="btncontainer"> <div class="btn-group">
+  	<button  onclick="return show('about')" style="font-size:16px; font-weight: lighter; font-family:sans-serif; line-height:0.8; text-align:center"><span style="font-size:16px"><span style="letter-spacing:0.3em"">About</button>
+  	<button  onclick="return show('externalresources')" style="font-size:16px; font-weight: lighter; font-family:sans-serif; line-height:0.8; text-align:center"><span style="font-size:16px"><span style="letter-spacing:0.3em"">External Resources</button>
+	
+
+     </div> </div><br>	
+      <div id="about" style="display:block">
+       <table style="width: 80%;"><tbody><tr>
+		<td style="width: 20%;">
+			 newsletter
+		 </td>
+		<td style="width: 80%;">
+			<p> creates contents for climate change awareness including articles, introducing activities, arts and etc.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td style="width: 20%;">
+			<p> people </p> </td>
+		<td style="width: 80%;">
+			<p>
+				<h2> xyzzy </h2>
+	​		</p>
+	</td>
+	</tr></tbody></table>
+      </div>
+    
+      <div id="externalresources" style="display:none">
+       <ul>
+  		<li><a href="https://www.commonsensemedia.org/lists/movies-that-teach-kids-about-climate-change"> Movies That Teach Kids About Climate Change </a> </li>
+  		<li> <a href ="https://calepa.ca.gov/climate/"> Climate Action programs </a> </li>
+  		<li><a href="https://350bayarea.org/"> 350 Bay Area </a> </li>
+	</ul>  
+	</div>
+     </body>
+    </html>
