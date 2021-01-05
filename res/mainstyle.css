@@ -28,7 +28,7 @@ h2 {
 .btn-group button {
   background-color: #cceeff; /* Gray blue background */
   border: 1px #cceeff; /* Green border */
-  border-radius: 30px;
+  border-radius: 180px;
   color: black; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
