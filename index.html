@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="res/mainstyle.css">
     <script>
     function show(shown) {
-      var array = ["about","externalresources","people"];
+      var array = ["about","externalresources","people", "articles"];
       var arrayLength = array.length;
       document.getElementById(shown).style.display='block';
       for (var i = 0; i < arrayLength; i++) {
@@ -19,14 +19,16 @@
     <body>
     <div class="headertitle">
 	
-  	<p  style="font-size:19px; font-family:sans-serif; font-weight: lighter line-height:0.2; text-align:center"><span style="font-size:19px"><span style="letter-spacing:0.4em"> ~ be mindful about climate change ~</p><br>
+  	 <p>~ be mindful about climate change ~<br>
 
-	<p style="font-size:19px; font-family:sans-serif; font-weight: lighter line-height:0.2; text-align:center"><span style="font-size:19px"><span style="letter-spacing:0.4em">~ make a difference by little steps  ~</p>
-        <h1 > Climate Change Newsletter </h1>
+	   ~ make a difference by little steps  ~</p>
+      
+      <h1 id="mainTitle"> Climate Change Newsletter </h1>
     </div><br>
     <div class="btncontainer"> <div class="btn-group">
-  	<button  onclick="return show('about')" style="font-size:16px; font-weight: lighter; font-family:sans-serif; line-height:0.8; text-align:center"><span style="font-size:16px"><span ">About</button>
-  	<button  onclick="return show('externalresources')" style="font-size:16px; font-weight: lighter; font-family:sans-serif; line-height:0.8; text-align:center"><span style="font-size:16px"><span ">Useful Links</button>
+  	<button  onclick="return show('about')" >About</button>
+  	<button  onclick="return show('externalresources')">Resources</button>
+    <button  onclick="return show('articles')" >Articles</button>
 	
 
      </div> </div><br>	
@@ -48,10 +50,10 @@
 	</tr>
 	<tr>
 		<td style="width: 20%;">
-			<p> us </p> </td>
+			<h2> Learn About the Creators </h2> </td>
 		<td style="width: 80%;">
 			<p>
-        <h2> Learn About the Creators </h2>
+        
 				<h3> Baran Abbasi </h3>
           <p> to be added </p>
 				<h3> Helia Hamidi </h3>
