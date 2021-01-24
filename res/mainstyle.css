@@ -1,4 +1,7 @@
+* {
+  box-sizing: border-box;
 
+}
 .headertitle {
   padding: 10px;
   text-align: center;
@@ -19,6 +22,7 @@
   letter-spacing: 0.2em;
   height: 40px;
   font-weight: lighter;
+  /*margin: 0px;*/
 }
 
 #logo {
@@ -40,6 +44,51 @@ tr:nth-of-type(even) {
 h2 {
     color: #158FFA;
     border-bottom: 1px solid #CCC;
+}
+
+.home{
+  background-color: #85baa1;
+  border: 3px solid #CEEDDB;
+  margin: 6px;
+  margin-top: 0px;
+}
+
+.home > h3 {
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+}
+
+#newArticles {
+  width: 45%;
+  height: 91%;
+  background-color: #6E8894; 
+  float: left;
+}
+
+#twitterTweets {
+  width: 52%;
+  height: 40%;
+  background-color: #544E61;
+  float: right;
+}
+
+#eventsNearMe {
+  width: 52%;
+  height: 30%;
+  background-color: #67597A;
+  float: right;
+}
+
+#relatedNews {
+  width: 52%;
+  height: 20%;
+  float: right;
+}
+
+#test {
+  /*width: 100%;
+  height: 10%;*/
+  float: left;
 }
 
 .btncontainer {
@@ -83,4 +132,3 @@ h2 {
 .btn-group button:hover {
   background-color: #85baa1;
 }
-
