@@ -85,11 +85,7 @@ h2 {
   float: right;
 }
 
-#test {
-  /*width: 100%;
-  height: 10%;*/
-  float: left;
-}
+
 
 .btncontainer {
   display: flex;
@@ -131,4 +127,48 @@ h2 {
 /* Add a background color on hover */
 .btn-group button:hover {
   background-color: #85baa1;
+}
+
+.resource {
+  background-color: #E0F3E8;
+  border: 3px solid #7AA19B;
+  margin: 6px;
+  margin-top: 0px;
+  margin-bottom: 10px; 
+}
+
+.resource > h4 {
+  text-align: center;
+  margin-top: 1px;
+}
+
+#books {
+  width: 49%;
+  height: 69%;           
+  float: left;
+
+}
+
+#movies {
+  width: 48%;
+  height: 25%;
+  float: right;
+}
+
+#tvshows {
+  width: 48%;
+  height: 25%;
+  float: right;
+}
+
+#activistweb {
+  width: 48%;
+  height: 49%;
+  float: right;
+} 
+
+#meetings {
+  width: 49%;
+  height: 29%;
+  float: left;
 }
