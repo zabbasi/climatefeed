@@ -3,12 +3,12 @@
 
 }
 .headertitle {
-  padding: 10px;
+  padding: 20px;
   text-align: center;
-  font-size:17px; 
+  font-size: 20px; 
   font-family:sans-serif; 
   font-weight: lighter;
-  /*line-height:0.15; */
+  line-height: 1;
   text-align:center;
   letter-spacing:0.4em;
 }
@@ -32,18 +32,42 @@
 table {
   border-collapse:separate; 
   border-spacing:5em;
+  text-align: center;
 
 }
+
 table.center {
   margin-left: auto;
   margin-right: auto;
+
 }
-tr:nth-of-type(even) {
-      background-color: #85baa1;/*#bee5e8;*/
+
+table{
+    /*:nth-of-type(even)background-color: #E0F3E8;/*#bee5e8;*/
+    border-collapse: collapse;
+    width: 85%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
+tr{
+  border: 3px solid #6E8894;
+  margin-bottom: 10px;
+}
+
+td > p{
+  padding: 20px 20px 20px 20px;
+}
+
+
 h2 {
-    color: #158FFA;
-    border-bottom: 1px solid #CCC;
+    text-align: center;
+    margin: 10px;
+    font-size: 2em;
+    color: #6E8894;
+
 }
 
 .home{
@@ -130,8 +154,8 @@ h2 {
 }
 
 .resource {
-  background-color: #E0F3E8;
-  border: 3px solid #7AA19B;
+  /*background-color: #E0F3E8;*/
+  border: 3px solid #6E8894;
   margin: 6px;
   margin-top: 0px;
   margin-bottom: 10px; 
@@ -139,36 +163,28 @@ h2 {
 
 .resource > h4 {
   text-align: center;
-  margin-top: 1px;
+  margin-top: 3px;
+  font-size: 2em;
+  color: #6E8894;
 }
 
-#books {
-  width: 49%;
-  height: 69%;           
-  float: left;
-
+.resource > a{
+  color: black;
+  text-decoration-style: none;
+  font-size: 150%;
 }
 
-#movies {
-  width: 48%;
-  height: 25%;
-  float: right;
+.imgref{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 33%;
 }
 
-#tvshows {
-  width: 48%;
-  height: 25%;
-  float: right;
-}
-
-#activistweb {
-  width: 48%;
-  height: 49%;
-  float: right;
-} 
-
-#meetings {
-  width: 49%;
-  height: 29%;
-  float: left;
+footer {
+  
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+  text-align: center;
 }
