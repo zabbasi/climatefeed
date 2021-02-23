@@ -16,7 +16,7 @@
 
 
     <div id="home" style="display:block">
-
+<!--
       <div class="home" id="newArticles">
 
         <h3>Article Feeds</h3>
@@ -36,18 +36,27 @@
         <h3>Events Near Me</h3>
 
       </div>
-
+-->
       <div class="home" id="relatedNews">
-
+        <h2> Top Climate Change News </h2>
         <div class="news">
             <% if(articles != null) { %>
-            <% articles.forEach(function(article, index) { %>
-                <a href="<%- article.url %>" class="news__card">
-                    <img src="<%- article.urlToImage %>" alt="<%- article.title %>">
-                    <h2><%- article.title %></h2>
-                    <p><%- article.description %></p>
-                </a>
-            <% }) %>
+              <% articles.forEach(function(article, index) { %>
+                <% if(index < 10) { %>
+                <table>
+                  <tr>
+                    <td>
+                    <a href="<%- article.url %>" class="news__card">
+                    
+                        <img id='newsImages' src="<%- article.urlToImage %>" alt="<%- article.title %>" width='35%'>
+                          <h3><%- article.title %></h3>
+                          <p><%- article.description %></p>
+                          </a>
+                      </td>
+                  </tr>
+                </table>
+                <% } %>
+              <% }) %>
             <% } else { %>
                 No posts found.
             <% } %>

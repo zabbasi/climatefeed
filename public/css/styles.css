@@ -30,8 +30,8 @@
 }
 
 table {
-  border-collapse:separate; 
-  border-spacing:5em;
+  border-collapse: separate; 
+  border-spacing: 5em;
   text-align: center;
 
 }
@@ -71,8 +71,8 @@ h2 {
 }
 
 .home{
-  background-color: #85baa1;
-  border: 3px solid #CEEDDB;
+  /*background-color: #85baa1;*/
+  border: 3px solid #6E8894;
   margin: 6px;
   margin-top: 0px;
 }
@@ -103,11 +103,14 @@ h2 {
   float: right;
 }
 
-#relatedNews {
-  width: 52%;
+#relatedNews{
+  /*width: 52%;
   height: 20%;
-  float: right;
+  float: right;*/
+  font-style: none;
 }
+
+
 
 
 
